@@ -1,0 +1,11 @@
+# deepcode
+.dccache
+
+# nodejs
+node_modules
+
+# parceljs
+.parcel-cache
+
+# dotenv
+.env
