@@ -1,8 +1,10 @@
 {
   "name": "gumroad.js",
   "version": "1.0.0-alpha.1",
-  "description": "[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/gumroad.js.svg?style=flat-square)](https://github.com/warengonzaga/gumroad.js/releases) [![star](https://img.shields.io/github/stars/warengonzaga/gumroad.js.svg?style=flat-square)](https://github.com/warengonzaga/gumroad.js/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/gumroad.js.svg?style=flat-square)](https://github.com/warengonzaga/gumroad.js/blob/main/license)",
-  "main": "index.js",
+  "description": "Simple and lightweight community contributed JavaScript SDK for Gumroad REST API.",
+  "source": "src/index.ts",
+  "main": "dist/gumroad.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +20,16 @@
   "homepage": "https://github.com/WarenGonzaga/gumroad.js#readme",
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
-    "parcel": "^2.0.1"
-  }
+    "parcel": "^2.3.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist/*"
+  ]
 }
