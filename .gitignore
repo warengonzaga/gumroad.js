@@ -1,0 +1,10 @@
+# node
+node_modules
+
+# package managers
+.yarn
+package-lock.json
+
+# misc
+.dccache
+.env
