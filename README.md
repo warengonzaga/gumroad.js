@@ -6,7 +6,7 @@
 
 ---
 
-A simple and lightweight but powerful NodeJS client for [Gumroad](http://gumroad.com) API.
+Simple and lightweight community contributed JavaScript SDK for [Gumroad](http://gumroad.com) REST API. 💻💸⚡
 
 ## 😎 Demo
 
@@ -38,7 +38,7 @@ For any questions, suggestions, ideas, or simply you want to share your experien
 
 ## 🐛 Issues
 
-If you're facing a problem in using GatherTownJS please let me know by [creating an issue here](https://github.com/warengonzaga/gumroad.js/issues/new). I'm here to help you!
+Please report any issues and bugs by [creating a new issue here](https://github.com/warengonzaga/gumroad.js/issues/new/choose), also make sure you're reporting an issue that doesn't exist. Any help to improve the project would be appreciated. Thanks! 🙏✨
 
 ## 🍀 Sponsors and Supporters
 
